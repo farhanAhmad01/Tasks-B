@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       
       {/* Project1 is counter with useState */}
-      <Project1/>
+      {/* <Project1/> */}
 
       {/* Project2 is counter with useReducer */}
       {/* <Project2/> */}
@@ -18,7 +18,7 @@ function App() {
       {/* <Project6 /> */}
 
        {/* Project3 is  counter with setTimeout*/}
-      {/* <Project3/> */}
+      <Project3/>
     </div>
   );
 }
