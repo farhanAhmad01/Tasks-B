@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 
 const Project6 = () => {
   const [jokes, setJokes] = useState([]);
-  let [condition,setCondition] = useState(false)
+  let [condition, setCondition] = useState(false);
   useEffect(() => {
     const fetchJoke = async () => {
       try {
@@ -24,11 +24,17 @@ const Project6 = () => {
   console.log(jokes);
   return (
     <div className="main-card">
+
+      {/* HERE IS ISSUE =>  i am not understand how to add button functionality for fetching data */}
+
+      
       <button onClick={() => setCondition(true)}>Joke</button>
       <div>
-      <p>{jokes.category}</p>
-      <p>{jokes.setup} <br/> {jokes.delivery}</p>
-      <p>{jokes.joke}</p>
+        <p>{jokes.category}</p>
+        <p>
+          {jokes.setup} <br /> {jokes.delivery}
+        </p>
+        <p>{jokes.joke}</p>
       </div>
     </div>
   );

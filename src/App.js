@@ -15,13 +15,13 @@ function App() {
       {/* Project2 is counter with useReducer */}
       {/* <Project2/> */}
 
-      {/* Project6 is a project that fetch jokes from an api*/}
+      {/* Project6 is a project that fetch jokes from an api* {(ISSUE)} /}
       {/* <Project6 /> */}
 
-       {/* Project3 is  counter with setTimeout*/}
+      {/* Project3 is  counter with setTimeout  */}
       {/* <Project3/> */}
 
-      {/* Project4 is Todo App */}
+      {/* Project4 is Todo App {}(ISSUE)*/}
        {/* <Project4/>       */}
     </div>
   );

@@ -5,6 +5,9 @@ const Project4 = () => {
   const [todos, setTodos] = useState([]);
   const addTodo = () => {
     if (input !== "") {
+
+      // here is issue => when i add button it insert input state into todos state but when i change input it remove previous state of todos and show new input
+      
       setTodos(input);
     }
     setInput('');
