@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 
 // An application that fetch joke from an api when you click button joke
 
-const JokeApi = () => {
+const Joke = () => {
   const [jokes, setJokes] = useState([]);
   let [condition, setCondition] = useState(false);
   useEffect(() => {
@@ -40,4 +40,4 @@ const JokeApi = () => {
   );
 };
 
-export default JokeApi;
+export default Joke;

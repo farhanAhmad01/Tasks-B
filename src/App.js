@@ -2,9 +2,9 @@ import "./App.css";
 
 import UseReducerCounter from "./Counter/UseReducer Counter";
 import SimpleCounter from "./Counter/Simple Counter 1";
-import TimerCounter from "./Counter/Timer Counter";
+import TimerCounter from "./Timer/Timer Counter";
 import Todo from "./Todo/Todo";
-import JokeApi from "./Joke Api/Joke Api";
+import Joke from "./Joke/JokeApi";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       {/* <UseReducerCounter/> */}
 
       {/* JokeApi is a project that fetch jokes from an api* (ISSUE)  */}
-      {/* <JokeApi /> */}
+      {/* <Joke/> */}
 
       {/* TimerCounter is  counter with setTimeout  */}
       {/* <TimerCounter/> */}
