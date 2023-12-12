@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 // This is a counter that increment,decrement and reset with useState hook but increment,decre etc after 1 second of click
 
-export default function Project3() {
+export default function TimerCounter() {
   const [count, setCount] = useState(0);
   function increment() {
     setTimeout(() => {

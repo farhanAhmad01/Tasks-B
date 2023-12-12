@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Project4 = () => {
+const Todo = () => {
   const [input, setInput] = useState('');
   const [todos, setTodos] = useState([]);
   const addTodo = () => {
@@ -33,4 +33,4 @@ const Project4 = () => {
   );
 };
 
-export default Project4;
+export default Todo;

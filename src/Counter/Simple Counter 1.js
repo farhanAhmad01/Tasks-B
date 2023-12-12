@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 // counter task with simple useState
 
-function Project1() {
+function SimpleCounter() {
   const [count,setCount] = useState(0)
   return (
     <div>
@@ -15,4 +15,4 @@ function Project1() {
   )
 }
 
-export default Project1
+export default SimpleCounter

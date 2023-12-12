@@ -1,28 +1,29 @@
 import "./App.css";
-import Project1 from "./Component/Project 1";
-import Project2 from "./Component/Project 2";
-import Project3 from "./Component/Project 3";
-import Project4 from "./Component/Project 4";
-import Project6 from "./Component/Project 6";
+
+import UseReducerCounter from "./Counter/UseReducer Counter";
+import SimpleCounter from "./Counter/Simple Counter 1";
+import TimerCounter from "./Counter/Timer Counter";
+import Todo from "./Todo/Todo";
+import JokeApi from "./Joke Api/Joke Api";
 
 function App() {
   return (
     <div className="App">
       
-      {/* Project1 is counter with useState */}
-      <Project1/>
+      {/* SimpleCounter is counter with useState */}
+      <SimpleCounter/>
 
-      {/* Project2 is counter with useReducer */}
-      {/* <Project2/> */}
+      {/* UseReducerCounter is counter with useReducer */}
+      {/* <UseReducerCounter/> */}
 
-      {/* Project6 is a project that fetch jokes from an api* {(ISSUE)} /}
-      {/* <Project6 /> */}
+      {/* JokeApi is a project that fetch jokes from an api* (ISSUE)  */}
+      {/* <JokeApi /> */}
 
-      {/* Project3 is  counter with setTimeout  */}
-      {/* <Project3/> */}
+      {/* TimerCounter is  counter with setTimeout  */}
+      {/* <TimerCounter/> */}
 
-      {/* Project4 is Todo App {}(ISSUE)*/}
-       {/* <Project4/>       */}
+      {/* Todo is Todo App {}(ISSUE)*/}
+       {/* <Todo/>       */}
     </div>
   );
 }
