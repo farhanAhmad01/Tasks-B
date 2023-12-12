@@ -1,8 +1,8 @@
 import "./App.css";
 
-import UseReducerCounter from "./Counter/UseReducer Counter";
-import SimpleCounter from "./Counter/Simple Counter 1";
-import TimerCounter from "./Timer/Timer Counter";
+import UseReducerCounter from "./Counter/UseReducerCounter";
+import SimpleCounter from "./Counter/SimpleCounter";
+import TimerCounter from "./Timer/TimerCounter";
 import Todo from "./Todo/Todo";
 import Joke from "./Joke/JokeApi";
 
