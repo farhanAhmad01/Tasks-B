@@ -3,27 +3,34 @@ import "./App.css";
 import UseReducerCounter from "./Counter/UseReducerCounter";
 import SimpleCounter from "./Counter/SimpleCounter";
 import TimerCounter from "./Timer/TimerCounter";
-import Todo from "./Todo/Todo";
-import Joke from "./Joke/JokeApi";
+import JokeApi from "./Joke/JokeApi";
+import RandomColor from "./Random Color/RandomColor";
+import TodoAppWithColor from "./Todo/Todo";
+import RandomColorGenerator from "./Random Color/RandomColor";
+import ColorChangingBox from "./Random Color/RandomColor";
+import TodoAppWithColorBoxes from "./Todo/Todo";
+import RandomColorGeneratorWithRemove from "./Todo/Todo";
 
 function App() {
   return (
     <div className="App">
       
       {/* SimpleCounter is counter with useState */}
-      <SimpleCounter/>
+      {/* <SimpleCounter/> */}
 
       {/* UseReducerCounter is counter with useReducer */}
       {/* <UseReducerCounter/> */}
 
       {/* JokeApi is a project that fetch jokes from an api* (ISSUE)  */}
-      {/* <Joke/> */}
+      {/* <JokeApi/> */}
 
       {/* TimerCounter is  counter with setTimeout  */}
       {/* <TimerCounter/> */}
 
       {/* Todo is Todo App {}(ISSUE)*/}
-       {/* <Todo/>       */}
+       <RandomColorGeneratorWithRemove/>      
+
+       {/* <ColorChangingBox/> */}
     </div>
   );
 }
