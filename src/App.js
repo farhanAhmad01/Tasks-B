@@ -9,7 +9,6 @@ import TodoAppWithColor from "./Todo/Todo";
 import RandomColorGenerator from "./Random Color/RandomColor";
 import ColorChangingBox from "./Random Color/RandomColor";
 import TodoAppWithColorBoxes from "./Todo/Todo";
-import RandomColorGeneratorWithRemove from "./Todo/Todo";
 
 function App() {
   return (
@@ -28,7 +27,7 @@ function App() {
       {/* <TimerCounter/> */}
 
       {/* Todo is Todo App {}(ISSUE)*/}
-       <RandomColorGeneratorWithRemove/>      
+       <TodoAppWithColorBoxes/>      
 
        {/* <ColorChangingBox/> */}
     </div>
