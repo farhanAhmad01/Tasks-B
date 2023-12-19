@@ -9,6 +9,8 @@ import TodoAppWithColor from "./Todo/Todo";
 import RandomColorGenerator from "./Random Color/RandomColor";
 import ColorChangingBox from "./Random Color/RandomColor";
 import TodoAppWithColorBoxes from "./Todo/Todo";
+import Todolist from "./SimpleTodo/Todolist";
+import LoginForm from "./LoginForm.js/LoginForm";
 
 function App() {
   return (
@@ -27,9 +29,13 @@ function App() {
       {/* <TimerCounter/> */}
 
       {/* Todo is Todo App {}(ISSUE)*/}
-       <TodoAppWithColorBoxes/>      
+       {/* <TodoAppWithColorBoxes/>       */}
 
        {/* <ColorChangingBox/> */}
+
+       {/* <Todolist/> */}
+
+       <LoginForm/>
     </div>
   );
 }

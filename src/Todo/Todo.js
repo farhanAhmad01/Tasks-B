@@ -54,9 +54,9 @@ const TodoAppWithColorBoxes = () => {
           onClick={() => handleBoxClick(index)}
         >
           <p>{task.text}</p>
-          <button onClick={() => handleRemoveTask(index)}>Remove</button>
         </div>
       ))}
+      <button onClick={() => handleRemoveTask(index)}>Remove</button>
     </div>
   );
 };
